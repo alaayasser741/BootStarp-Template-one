@@ -3,9 +3,15 @@
 :root{
     --yellow-color:#FFC800;
     --light-color:#F8F9FA;
+    --section-margin:70px;
 }
 body{
     font-family: 'Roboto', sans-serif;
+}
+.main-title{
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    color: rgb(138, 138, 138);
 }
 header{
     height: 100vh;
@@ -16,7 +22,7 @@ header{
     position: relative;
 }
 header .navbar{
-    padding: 20px 0;
+    padding: 1.5rem 0;
 }
 header .navbar-nav .nav-item a{
     font-size: 1rem;
@@ -42,4 +48,9 @@ header .header-info h1 span{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 4rem;
+}
+/* //////////////////////////// */
+.services{
+    margin-top: var(--section-margin);
+    margin-bottom: var(--section-margin);
 }
