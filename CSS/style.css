@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300;1,400;1,700&display=swap');
+:root{
+    --yellow-color:#FFC800;
+    --light-color:#F8F9FA;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    height: 100vh;
+    background-image: url(../images/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+header .navbar{
+    padding: 20px 0;
+}
+header .navbar-nav .nav-item a{
+    font-size: 1rem;
+}
+header .header-info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    width: 97%;
+}
+header .header-info h1{
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+header .header-info h1 span{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 4rem;
+}
