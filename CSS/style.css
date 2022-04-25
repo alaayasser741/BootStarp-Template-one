@@ -165,6 +165,7 @@ header .header-info a:hover{
 /* ////////////////// */
 .about{
   margin-top: var(--section-margin);
+  margin-bottom: var(--section-margin);
   position: relative;
 }
 .about::before{
@@ -283,14 +284,44 @@ header .header-info a:hover{
   .about .timeline li .img img{
     top: 0;
   }
-  .about .timeline .text{
-    /* margin-left: 20px; */
-  }
   .about .timeline li div {
     flex-basis: 70%;
 }
 .about::before{
   left: 20%;
 }
-
+}
+/* //////////////////////////////////// */
+.team{
+  margin-top: calc(var(--section-margin) * 3);
+}
+.team .container .box{
+  margin:0 20px;
+  margin-bottom: var(--section-margin);
+}
+.team .container img{
+  border: 10px solid #ccc;
+  margin-bottom: 25px;
+}
+.team .container h2{
+  font-size: 1.6rem;
+}
+.team .container .footer{
+  margin: 0 190px;
+  padding: 0 12px;
+}
+.team .container .social a{
+  height: 2.3rem;
+  width: 2.3rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border-radius: 100%;
+  text-decoration: none;
+}
+@media (max-width:991px){
+  .team .container .footer{
+    margin: 0;
+  }
 }
