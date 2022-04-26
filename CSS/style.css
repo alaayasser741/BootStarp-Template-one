@@ -335,3 +335,30 @@ header .header-info a:hover{
   height: 2.75rem;
   max-width: 100%;
 }
+/* //////////////////// */
+.contact{
+  background-color: #212529;
+  background-image:url(../images/map-image.png) ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 6rem 0;
+}
+.contact .text-title{
+  color: #fff;
+  /* margin-bottom: 40px; */
+}
+input[type = "text"]:not(:last-child),
+input[type = "email"]{
+  margin-bottom: 1.5rem;
+}
+input::placeholder,
+textarea::placeholder{
+  font-size: .9rem;
+  color: #ccc !important;
+  font-weight: bold;
+}
+textarea{
+  height: 100% !important;
+  min-height: 10rem !important;
+}
