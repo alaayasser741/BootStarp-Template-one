@@ -294,6 +294,7 @@ header .header-info a:hover{
 /* //////////////////////////////////// */
 .team{
   margin-top: calc(var(--section-margin) * 3);
+  padding-bottom: calc(var(--section-margin) * 2);
 }
 .team .container .box{
   margin:0 20px;
@@ -324,4 +325,13 @@ header .header-info a:hover{
   .team .container .footer{
     margin: 0;
   }
+}
+/* ////////////////// */
+.media{
+  margin-top: calc(var(--section-margin));
+  margin-bottom: calc(var(--section-margin));
+}
+.media .container .row img{
+  height: 2.75rem;
+  max-width: 100%;
 }
